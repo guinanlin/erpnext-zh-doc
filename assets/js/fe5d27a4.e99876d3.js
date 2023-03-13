@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkstsinc_docs=self.webpackChunkstsinc_docs||[]).push([[200],{7206:s=>{s.exports=JSON.parse('{"allTagsPath":"/erpnext-zh-doc/blog/tags","slug":"/erpnext-zh-doc/blog/tags/hola","name":"hola","count":1,"permalink":"/erpnext-zh-doc/blog/tags/hola"}')}}]);
