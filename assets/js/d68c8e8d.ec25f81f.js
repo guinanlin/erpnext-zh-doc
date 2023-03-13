@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkerpnext_zh_doc_2=self.webpackChunkerpnext_zh_doc_2||[]).push([[482],{874:e=>{e.exports=JSON.parse('{"permalink":"/erpnext-zh-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
