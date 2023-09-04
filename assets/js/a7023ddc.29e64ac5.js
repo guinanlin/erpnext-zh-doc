@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstsinc_docs=self.webpackChunkstsinc_docs||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"Doctype","permalink":"/blog/tags/doctype","count":1},{"label":"ERPNext","permalink":"/blog/tags/erp-next","count":1}]')}}]);

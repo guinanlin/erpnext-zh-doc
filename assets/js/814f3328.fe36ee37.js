@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstsinc_docs=self.webpackChunkstsinc_docs||[]).push([[2535],{5641:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u8986\u76d6Doctype\u7684\u65b9\u6cd5","permalink":"/blog/\u8986\u76d6Doctype\u7684\u65b9\u6cd5"}]}')}}]);

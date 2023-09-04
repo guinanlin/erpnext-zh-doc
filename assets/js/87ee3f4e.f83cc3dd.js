@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstsinc_docs=self.webpackChunkstsinc_docs||[]).push([[9317],{6138:s=>{s.exports=JSON.parse('{"label":"Doctype","permalink":"/blog/tags/doctype","allTagsPath":"/blog/tags","count":1}')}}]);
