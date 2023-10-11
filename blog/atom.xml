@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://erpnext.cc/blog</id>
     <title>ERPNext中文文档 Blog</title>
-    <updated>2023-09-04T00:00:00.000Z</updated>
+    <updated>2023-10-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://erpnext.cc/blog"/>
     <subtitle>ERPNext中文文档 Blog</subtitle>
     <icon>https://erpnext.cc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[erpnext如何与企业微信集成登录]]></title>
+        <id>https://erpnext.cc/blog/erpnext如何与企业微信集成登录</id>
+        <link href="https://erpnext.cc/blog/erpnext如何与企业微信集成登录"/>
+        <updated>2023-10-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[背景]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="背景">背景<a href="#背景" class="hash-link" aria-label="Direct link to 背景" title="Direct link to 背景">​</a></h2><p>我相信很多人都跟我类似， 对于ERPNext是否能集成企业微信感兴趣。 </p><p>下面这个地址提供了一种实现的方式。 </p><p>我也是基于如上的内容做了相关的定制和实现， 但是实现过程做了一些微调。 下面是具体实现的效果：</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="前提">前提：<a href="#前提" class="hash-link" aria-label="Direct link to 前提：" title="Direct link to 前提：">​</a></h2><p>ERPNext的用户的用户名 与 企业微信的后台 的账号 是一样的。 大小写不一样关系不大。</p><p><a href="https://pic.imgdb.cn/item/6525fbcbc458853aefe1c39f.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://pic.imgdb.cn/item/6525fbcbc458853aefe1c39f.jpg" class="img_ev3q"></a></p><p>社交登录密钥的设定：</p><p><a href="https://pic.imgdb.cn/item/6525fd29c458853aefe4685b.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://pic.imgdb.cn/item/6525fd29c458853aefe4685b.jpg" class="img_ev3q"></a></p><p>企业微信后台的设定：</p><p><a href="https://pic.imgdb.cn/item/6525fe3bc458853aefe69178.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://pic.imgdb.cn/item/6525fe3bc458853aefe69178.jpg" class="img_ev3q"></a></p><p>登录效果：</p><p><a href="https://pic.imgdb.cn/item/6525fe7bc458853aefe709c0.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://pic.imgdb.cn/item/6525fe7bc458853aefe709c0.jpg" class="img_ev3q"></a></p><p><a href="https://pic.imgdb.cn/item/6525ff0fc458853aefe831a1.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://pic.imgdb.cn/item/6525ff0fc458853aefe831a1.jpg" class="img_ev3q"></a></p>]]></content>
+        <author>
+            <name>林贵南</name>
+            <uri>https://erpnext.cc/</uri>
+        </author>
+        <category label="企业微信" term="企业微信"/>
+        <category label="ERPNext" term="ERPNext"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[覆盖Doctype的方法]]></title>
         <id>https://erpnext.cc/blog/覆盖Doctype的方法</id>

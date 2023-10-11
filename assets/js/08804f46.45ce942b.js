@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstsinc_docs=self.webpackChunkstsinc_docs||[]).push([[6050],{4283:s=>{s.exports=JSON.parse('{"label":"\u4f01\u4e1a\u5fae\u4fe1","permalink":"/blog/tags/\u4f01\u4e1a\u5fae\u4fe1","allTagsPath":"/blog/tags","count":1}')}}]);
