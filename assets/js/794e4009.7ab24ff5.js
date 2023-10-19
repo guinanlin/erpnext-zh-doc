@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstsinc_docs=self.webpackChunkstsinc_docs||[]).push([[823],{3819:s=>{s.exports=JSON.parse('[{"label":"\u6743\u9650","permalink":"/resource-center/tags/\u6743\u9650","count":1}]')}}]);
