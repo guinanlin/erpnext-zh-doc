@@ -1,0 +1,40 @@
+# 使用 GitHub Action 来解决手动同步到 Gitee 的问题
+# 效果：github repo 代码更新之后，会自动同步至 gitee
+# 使用到的 GitHub Action：https://github.com/Yikun/hub-mirror-action
+
+# This is a basic workflow to help you get started with Actions
+
+name: 镜像到gitee(gitee-mirror)
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches:
+      - 'gh-pages'
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Mirror the Github organization repos to Gitee.
+      uses: Yikun/hub-mirror-action@master
+      with:
+        src: github/guinanlin
+        dst: gitee/lynnguinan
+        # dst_key: 这是用于身份验证的 Gitee 的 SSH 私钥。你需要创建一个 SSH 密钥并将其添加到 Gitee，
+        # 然后将相应的私钥部分存储在 GitHub Secrets 中，以便在 GitHub Actions 中使用。SSH 密钥通常用于身份验证和安全通信。
+        # dst_token: 这是 Gitee 的访问令牌，用于进行 API 请求。你需要在 Gitee 上生成一个访问令牌，并将其存储在 GitHub Secrets 中。
+        # 访问令牌通常用于在没有 SSH 密钥的情况下进行 API 请求。
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        # 项目同步白名单，可以选择填写多个，以英文逗号分割
+        static_list: "erpnext-zh-doc"
+        # 是否强制同步
+        force_update: true
+        # 账号类型： user，个人项目；如果是企业项目，请填写 org
+        account_type: user
